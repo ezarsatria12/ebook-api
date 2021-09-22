@@ -17,6 +17,7 @@ class BookController extends Controller
         return book::get();
     }
 
+    
     /**
      * Show the form for creating a new resource.
      *

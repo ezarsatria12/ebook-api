@@ -11,4 +11,5 @@ class book extends Model
         'title', 'description', 'author', 'publisher', 'date_of_issue', 'quantity'
     ];
     public $timestamps = false;
+    
 }
