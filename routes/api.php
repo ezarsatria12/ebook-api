@@ -17,5 +17,5 @@ use App\Http\Controllers\AuthorController;
 */
 
 Route::get('/me', [AuthController::class, 'me']);
-Route::resource('/book', BookController::class)->except('create', 'edit');
+Route::resource('book', BookController::class)->except('create', 'edit');
 Route::resource('authors', AuthorController::class);
